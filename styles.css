@@ -1,0 +1,497 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /*Fuente para los parrafos y textos */
+}
+
+/*Fuentes titulos */
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Seccion-bienvenidos*/
+
+.seccion-bienvenidos{
+    height: 616px;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(196,219,31,1) 0%, rgba(14,64,177,1) 0%, rgba(84,119,199,1) 0%, rgba(41,85,185,1) 0%, rgba(0,212,255,1) 0%, rgba(246,247,251,1) 0%, rgba(245,247,127,1) 100%, rgba(255,195,247,1) 100%, rgba(213,120,200,1) 100%);
+}
+
+
+/*Header*/
+
+.header{
+    padding-top: 18px;
+}
+
+@media(min-width:960px){
+    .header{
+        padding-top: 36px   ;
+    }
+}
+
+.nav-header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contenedor-opciones-header{
+    display: none;
+}
+
+@media(min-width:960px){
+    .contenedor-opciones-header{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.texto-opciones-header{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.logo{
+    width: 54px;
+    height: 50px;
+}
+
+@media(min-width:960px){
+    .logo{
+        width: 95px;
+        height: 109px;
+    }
+}
+
+.menu-mobile{
+    width: 40px;
+    height: 40px;
+}
+
+@media(min-width:960px){
+    .menu-mobile{
+        display: none;
+    }
+}
+
+/* Fin del header */
+
+.contenedor-titulo-y-img{
+    width: 318px;
+    height: 454px;
+    display: grid;
+    gap: 58px;
+    margin: 94px auto 0px;
+    place-items: center;
+}
+
+@media(min-width:960px){
+
+   .contenedor-titulo-y-img{
+    width: 90%;
+    height: 395px;
+    gap: 0;
+    margin: 76px auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+}
+
+.contenedor-titulo-principal{
+    width: 291px;
+    height: 96px;
+}
+
+@media(min-width:960px){    
+    .contenedor-titulo-principal{
+        width: 313px;
+        margin-top: 30px;
+       
+    }    
+}
+
+.titulo-principal{
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin: 0px;
+}
+
+@media(min-width:960px){
+    .titulo-principal{
+        text-align: left;
+    }
+}
+
+.contenedor-imagen-principal{
+    width: 318px;
+    height: 300px;
+}
+
+@media(min-width:960px){
+    .contenedor-imagen-principal{
+        width: 435px;
+        height: 395px;
+    }
+    
+}
+
+
+
+.imagen-principal{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+border: solid
+}
+
+
+/* Seccion Introduccion */
+
+
+.seccion-introduccion{
+    background-color: #141414;
+    height: 538px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-seccion-intro{
+   width: 312px; 
+   height: 415px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+@media(min-width:960px){
+    .contenedor-seccion-intro{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        min-width: 700px;
+        height: 421px;
+    }
+}
+
+.contenedor-titulo-y-parrafo-intro{
+    display: grid;
+    gap: 41px;
+}
+
+@media(min-width:960px){
+    .contenedor-titulo-y-parrafo-intro{
+        gap: 28px;
+        justify-items: start;
+    }
+}
+
+.titulo-secundario{
+    margin: 0;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FAFAFA;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+.parrafo-sobre-mi{
+    margin: 0px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    max-width: 400px;
+}
+
+@media(min-width:960px){
+    .parrafo-sobre-mi{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+.contenedor-check{
+    margin-top: 57px;
+    width: 80px;
+    height: 80px
+    
+}
+@media(min-width:960px){
+    .contenedor-check{
+        margin: 0;
+        width: 211px;
+        height: 211px;
+    }
+}
+
+.check{
+    height: 100%;
+    width: 100%;
+}
+
+/* seccion mis servicios */
+
+.seccion-servicios{
+    height: 1375px;
+    width: 100%;
+    padding-top: 70px;
+    background-color: #f5f77f
+}
+
+@media(min-width:960px){
+    .seccion-servicios{
+        padding: 0;
+        height: 604px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contenedor-titulo-servicios{
+    width: 271px;
+    height: 56px;
+    margin: 0px auto 43px ;
+    
+}
+
+@media(min-width:960px){
+    .contenedor-titulo-servicios{
+        margin: 0px 0px 71px
+        
+    }
+}
+
+.titulo-servicios{
+    margin: 0;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    text-align: center;
+    
+}
+
+.contenedor-mis-servicios{
+    width: 271px;
+    margin: 0 auto;
+    display: grid;
+    gap: 104px;
+}
+
+@media(min-width:960px){
+    .contenedor-mis-servicios{
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+}
+
+.contenedor-hago-cosas{
+    width: 271px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen-pc{
+    width: 138px;
+}
+
+.subtitulo-servicios{
+    margin: 0;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.parrafo-servicios{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Seccion formulario */
+
+.seccion-formulario{
+    height: 660px;
+    width: 100%;
+    background-color: #141414;
+    padding-top: 70px;
+}
+
+@media(min-width:960px){
+    .seccion-formulario{
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.contenedor-titulo-y-formulario{
+    width: 335px;
+    margin: 0 auto;
+}
+
+@media(min-width:960px){
+    .contenedor-titulo-y-formulario{
+        width: 723px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+    }
+}
+
+.contenedor-titulo-formulario{
+    width: 271px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+@media(min-width:960px){
+    .contenedor-titulo-formulario{
+        justify-self: end;
+    }
+}
+
+.titulo-formulario{
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #FAFAFA;
+    margin: 0;
+}
+
+@media(min-width:960px){
+    .titulo-formulario{
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1px;
+        text-align: right;
+    }
+}
+
+.formulario{
+    width: 335px;
+}
+
+.input{
+    width: 100%;
+    height: 45px;
+    border: solid;
+    border-color: #444343;
+}
+
+.nombre{
+    margin-bottom: 51px;
+}
+
+.email{
+    margin-bottom: 45px;
+}
+
+.textarea {
+    height: 113px;
+    margin-bottom: 60px;
+}
+
+
+.label{
+   color:  #FAFAFA;
+   font-size: 13px;
+   line-height: 15px;
+   display: block;
+   margin-bottom: 9px;
+}
+
+.boton{
+    background-color: #FFD953;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* seccion footer */
+
+.footer{
+    height: 493px;
+    width: 100%;
+    padding-top: 54px;
+    background-color: #c5bebe;
+}
+
+@media(min-width:960px){
+    .footer{
+        padding: 40px;
+        height: 346px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.contenedor-logo-y-copyright{
+    margin-left: 16px;
+    display: grid;
+    gap: 18px;
+    width: 150px;
+    height: 104px;
+}
+
+@media(min-width:960px){
+   .contenedor-logo-y-copyright{
+    margin: 0;
+    height: 140px;
+   } 
+}
+
+.texto-copyright{
+    margin: 0px;
+    
+    font-size: 13px;
+    line-height: 15px;
+    color: #2C2C2C;
+}
+
+.contenedor-redes-sociales{
+    max-width: 120px;
+    margin-top: 89px;
+    margin-left: 19px;
+    display: grid;
+    gap: 29px;
+}
+
+.imagen-instagram, .imagen-linkedin, .imagen-github{
+    width: 28px;
+    height: 28px;
+    vertical-align:middle;
+}
+
+.texto-redes{
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2C2C2C;
+}
+
